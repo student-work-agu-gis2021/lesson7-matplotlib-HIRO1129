@@ -78,6 +78,8 @@ pl.show()
 outputfp = "my_first_plot.png"
 
 # YOUR CODE HERE 5
+pl.savefig("my_first_plot.png")
+
 
 # This test print statement should print the output filename of your figure
 print("Saved my first plot as:", outputfp)
