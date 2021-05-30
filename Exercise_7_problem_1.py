@@ -66,7 +66,10 @@ pl.scatter(x, y, s = 50, c = colors, cmap = "rainbow", edgecolor = 'black')
 
 # Add labels and title
 # YOUR CODE HERE 4
-
+pl.xlabel("x-label")
+pl.ylabel("y-label")
+pl.title("My random candy points")
+pl.show()
 
 
 
